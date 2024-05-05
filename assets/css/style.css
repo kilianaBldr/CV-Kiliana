@@ -3,3 +3,16 @@ body {
     background-color: #782221;
     border: solid 2px #2c1d27;
 }
+header {
+    text-align: center;
+    border-radius: 50%;
+}
+#Profil {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+#Profil__image {
+    border-radius: 50%;
+}
