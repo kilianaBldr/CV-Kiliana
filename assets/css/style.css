@@ -1,29 +1,36 @@
 body {
-    box-sizing: 1160px;
+    background-size: 1160px;
     background-color: #782221;
     border: solid 2px #2c1d27;
 }
 
 header {
     text-align: center;
-    border-radius: 50%;
+    
 }
 
 #Profil {
     margin-top: 20px;
     justify-content: center;
     text-align: center;
+    
 }
 
-#Profil__image {
-    border-radius: 50%;
+#image_profil {
+    width: 20%;
+    height: 20%;
+    border-radius: 50;
 }
 
-.Profil__image:hover {
+.image_profil:hover {
     cursor: zoom-in;
     text-decoration-line: none;
 }
-
+#text_profil {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
 a {
     text-align: center;
     color: white;
@@ -45,12 +52,12 @@ a:hover {
 
 main {
     display: flex;
-    width: 1160px;
     justify-content: space-between;
-    margin: auto;
+    margin: 0;
 }
 
-.Propos {
+#Propos {
+    width: 30%;
     padding-right: 20px;
     text-align: justify;
 }
@@ -72,6 +79,7 @@ p {
 }
 
 .principal {
+    width: 70%;
 
     background-color: white;
     color: black;
@@ -82,22 +90,28 @@ p {
 .principal__title:hover {
     border-left: 5px solid #782221;
 }
+.bold {
+    font-weight: bold;
+}
 
 footer {
     margin: 20px;
-    color: white;
     text-align: center;
+    color: white;
+    
 }
 
-footer>img {
+.logo {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin: 10px;
     padding: 10px;
     opacity: 100;
+
 }
 
-.Logo__images:hover {
+.Logo_images:hover {
     opacity: 0.4;
+    text-decoration: none;
 }
